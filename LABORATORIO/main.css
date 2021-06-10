@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --verde: #00ff00;
+    --blanco: #ffffff;
+    --gris: #575757;
+    --negro: #000000;
+}
+
+.header{
+    background-color: var(--verde);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--negro);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.header a{
+    border: solid ;
+    margin-right: 20px;
+}
+
+.header a:hover{
+    color: var(--blanco);
+    background-color: var(--gris);
+    transition: 540ms;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: var(--blanco);
+    background-color: var(--gris);
+    border-radius: 25px;
+    padding: 50px;
+    border: var(--verde) solid 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tarjeta a{
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 18px;
+    background-color: var(--negro);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.tarjeta a:hover{
+    background-color: var(--gris);
+}
+
+.tarjeta:hover{
+    background-color: var(--blanco);
+    color: var(--negro);
+    transition: 540ms;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjetaproductos{
+    width: 220px;
+    height: 360;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: var(--blanco);
+    background-color: var(--gris);
+    border-radius: 25px;
+    padding: 50px;
+    border: var(--negro) solid 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tarjeta img{
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjetaproductos:hover{
+    background-color: var(--verde);
+    color: var(--negro);
+    transition: 540ms;
+}
+
+.tarjetabeneficios{
+    width: 220px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 360;
+    text-align: center;
+    color: var(--negro);
+    border-radius: 25px;
+    padding: 50px;
+    border: var(--gris) solid 5px;
+    margin-right: 20px;
+}
+
+.misionyvision{
+    width: 220px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+
+.formulario{
+    width: 177px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
